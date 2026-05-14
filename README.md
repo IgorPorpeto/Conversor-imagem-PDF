@@ -48,7 +48,9 @@ No arquivo src/main/java/com/faculdade/route/ImageRoute.java, altere os caminhos
 Java
 
 from("file:"COLOQUE AQUI A PASTA ONDE SERA COLOCADA A IMAGEM A SER CONVERTIDA (ENTRADA)"?include=.*\\.(jpg|png)$&noop=true") // Exemplo: E:/seu-caminho/entrada
+
 // ...
+
 .to("file:"COLOQUE AQUI A PASTA DA IMAGEM CONVERTIDA (SAIDA)"") // Exemplo: E:/seu-caminho/saida
 
 3. Rodar a aplicação
